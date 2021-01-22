@@ -1,4 +1,5 @@
  <?php include "includes/header.php";?>
+<h2 class="pageID">Welcome</h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="images/large.jpg" class="desktop" alt="picture of Blake" />
