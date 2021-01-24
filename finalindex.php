@@ -1,11 +1,11 @@
  <?php include "includes/header.php";?>
 <section>
-<h2 class="pageID">AIA</h2>
+<h2 class="pageID">Final Project</h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="images/large.jpg" class="desktop" alt="picture of Blake" />
  <img src="images/small.jpg" class="phone" alt="picture of Blake" />
- <p>Future home of the AIA Section!</p>
+ <p>Future home of the final project section!</p>
 </section>
 <!-- END LEFT COL -->
 

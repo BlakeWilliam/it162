@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Blake Agrade's IT162 Portal</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hif1oht.css">
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8">
@@ -19,15 +20,15 @@
   <nav>
     <ul class="topnav" id="myTopnav">
       <li><a href="index.php" class="selected">Welcome</a></li>
-      <li><a href="big/index.php">Big</a></li>
+      <li><a href="bigindex.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart</a></li>
-      <li><a href="fp/index.php">Final Project</a></li>
+      <li><a href="finalindex.php">Final Project</a></li>
       <li><a href="contactme.php">Contact Blake</a></li>
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>
 </header>
 <!-- START LEFT COL -->
-<section>
+
  

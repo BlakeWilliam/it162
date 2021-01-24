@@ -88,7 +88,7 @@ footer {
     
     img.tablet, img.phone {
        	display:none;
-    	}  
+    	}   
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
