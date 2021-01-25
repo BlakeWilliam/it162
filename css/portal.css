@@ -10,14 +10,6 @@ main.wrapper {
     overflow:auto;
 }
 
-section {
-    padding-left: 10px;
-}
-
-aside {
-    padding-right: 10px;
-}
-
 h1>a {
     text-decoration: none;
     color:#000;
@@ -71,12 +63,14 @@ footer {
 		width:65%;
 		float:left;
         box-sizing: border-box;
+        padding-left: 10px;
 	}
 	
      aside {	
 		width:34%;
 		float:right;
         box-sizing: border-box;
+        padding-right: 10px;
 	}
 			
     img.desktop {
@@ -96,7 +90,7 @@ footer {
         		color:#000;
    	 }
 }
-
+    
 
 /* TABLET */
 @media all and (min-width:737px) and (max-width:1399px) {
@@ -112,6 +106,7 @@ footer {
 		width:39%;
 		float:right;
         box-sizing: border-box;
+        padding-right: 10px;
 	}
 	
     img.tablet {

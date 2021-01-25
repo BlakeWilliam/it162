@@ -21,7 +21,7 @@
             let thisForm = document.forms[0];
             $(thisForm).submit(function(e) {            
                 if(!checkRecaptcha()) {
-                    alert("Please confirm you are not a robot.");
+                    alert("Please confirm you are human.");
                     return false;
                 }
             });

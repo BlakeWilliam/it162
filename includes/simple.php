@@ -17,6 +17,7 @@
 #--------------END CONFIG AREA ------------------------#
 ?>
 	<!-- START HTML FORM -->
+<div>
 	<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 	<div>
 		<label>
@@ -27,16 +28,11 @@
 		<label>
 			Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
 		</label>
-	</div>
+	</div>     
 	<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 	<div>	
 		<label>
-			Questions?:<br /><textarea name="Questions" cols="36" rows="4" placeholder="Please feel free to ask me any questions!" tabindex="30"></textarea>
-		</label>
-	</div>	
-    <div>	
-		<label>
-			Leave additional comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to me!" tabindex="30"></textarea>
+			Questions or comments?:<br /><textarea name="Questions" cols="36" rows="4" placeholder="Please feel free to ask me any questions or leave any comments!" tabindex="30"></textarea>
 		</label>
 	</div>	
     <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
@@ -44,4 +40,5 @@
 		<input type="submit" value="submit" />
 	</div>
     </form>
+</div>
 	<!-- END HTML FORM -->
