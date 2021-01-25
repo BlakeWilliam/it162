@@ -44,5 +44,8 @@
           border-left: 1px solid #ccc;
           border-right: 1px solid #ccc;
         }
+        div.g-recaptcha {
+          display: flow-root;
+        }
         
         /* end reCAPTCHA styles */
