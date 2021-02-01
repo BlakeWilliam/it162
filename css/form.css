@@ -14,12 +14,8 @@
 			color:#f00;
 		}
 
-        input:required {
-            border: 3px solid #256927;
-            width: 300px;
-        }
 
-         input:optional, textarea:optional {
+         input:optional, textarea:optional, input:required {
              background-color:#f1f1f1;
              border:3px solid #256927;
              width: 300px;
@@ -44,8 +40,12 @@
           border-left: 1px solid #ccc;
           border-right: 1px solid #ccc;
         }
+/* no longer needed due to image removal. 
+
         div.g-recaptcha {
           display: flow-root;
         }
+            */
         
+  
         /* end reCAPTCHA styles */

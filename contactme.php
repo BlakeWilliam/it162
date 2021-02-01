@@ -1,11 +1,5 @@
  <?php include "includes/header.php";?>
-<section>
-<h2 class="pageID">Contact Me</h2>
 
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
- <img src="images/large.jpg" class="desktop" alt="picture of Blake" />
- <img src="images/small.jpg" class="phone" alt="picture of Blake" />
-    <p>
          <?php
         /*
          * Below are 2 different forms to be re-used       
@@ -31,8 +25,11 @@
 <!-- START RIGHT COL -->
 <aside>
  <h2>Right Column</h2>
- <img src="images/medium.jpg" class="tablet" alt="picture of Blake" />
-    <p></p>
+    <p>I'm all ears!</p>
+    <p>Shoot me a line - I'd love to answer any of your questions or take any comments.</p>
+    <p>I'm always striving to learn more in web development. Have any suggestions or cool things I should research? I'd love to hear what you got.</p>
+    <p>If you wanna talk about hiking. I'm in!</p>
+    <p>Cats, squirrels, goats, whales, bison more your thing? Any animal really. Definitely will discuss them in depth.</p>
 </aside>
 <!-- END RIGHT COL -->
 
