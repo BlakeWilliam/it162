@@ -1,0 +1,194 @@
+html {
+    background-color: #90949A;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main.wrapper {
+    background-color: #90949A;
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    width:60%;
+    float:left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+aside {	
+    width:40%;
+    float:right;
+    box-sizing: border-box;
+    padding-right: 10px;
+   
+}
+
+h1 > a {
+    font-size: 1em;
+    text-decoration: none;
+    color:#000;
+}
+
+h2 {
+    text-shadow: 1px 1px 2px #FFFFFF;
+}
+
+p {
+    font-family: 'montserrat', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+.center-header, 
+.center-element,
+h2, 
+address {
+    text-align: center;
+}
+
+.spacer {
+    height: 10px;
+    content:'';
+}
+
+.line-break {
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.logo {
+    color: #565656;
+    text-shadow: 2px 2px #000;
+    font-size: 1.25em;
+}
+.sources {
+        font-size: .8em;
+    }
+
+/* This is for my responsive animated links */
+p > a {
+    font-family: 'Raleway', 'sans-serif';
+    color: #104e8b;
+    text-shadow:  0px 0px 3px #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p > a.slide {
+    position: relative;
+}
+
+p > a.slide:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+p > a.slide:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+/* end animated link css */
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding-right: 2px;
+}
+
+footer {
+    border-top: 1px solid #000000;
+    font-size: .5em;
+    clear:both;
+    text-align: center;
+}
+
+/*IMAGE GALLERY THUMBNAIL*/
+img {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #FFFFFF;
+}
+
+div.align-thumb {
+    text-align: center;
+}
+
+div.align-thumb li {
+    display: inline-block;
+}
+
+div.align-thumb ul {
+    padding: 0;
+    
+}
+
+
+/*END THUMBNAIL CSS*/
+
+/* START RESPONSIVE STYLES */
+div.embed-container.agenda-view {
+        display:none;
+    }
+
+
+/* SMALLER SCREEN & MOBILE */
+@media all and (max-width:700px) {
+
+section {
+    padding-right: 10px;
+    width: 100%;
+
+}
+
+aside {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+} 
+
+div.embed-container.month-view {
+        display: none;
+    }
+    
+div.embed-container.agenda-view {
+        display: block;
+    }
+    
+header {
+    padding-right: 2px;
+}
+
+}

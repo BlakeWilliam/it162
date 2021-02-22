@@ -1,0 +1,57 @@
+    /* start reCAPTCHA styles */
+
+form>div, div.g-recaptcha {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    }
+
+.g-recaptcha div {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+    /* writes to small text above reCAPTCHA upon failure */
+
+.dateFeedback{
+    font-style:italic;
+    font-size:100%;
+    font-weight:bold;
+    color:#f00;
+}
+
+
+input:optional, textarea:optional, input:required, select {
+     background-color:#f1f1f1;
+     border:3px solid #565656;
+     width: 100%;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #fff;
+    border: solid 3px #565656;
+    padding: 0.3em 0.5em;
+    width: 100%;
+}
+
+fieldset {
+    border: 3px solid #565656;
+    width: 100%;
+}
+
+legend {
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    border-left: 1px solid #565656;
+    border-right: 1px solid #565656;
+}
+    /* no longer needed due to image removal. 
+
+    div.g-recaptcha {
+    display: flow-root;
+    }
+    */
+
+
+    /* end reCAPTCHA styles */
