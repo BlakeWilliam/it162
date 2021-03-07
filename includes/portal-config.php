@@ -48,10 +48,10 @@ switch(THIS_PAGE){
     case 'aia.php':
         $title = "Blake Agrade's IT162 AIA Page";
         $logo = 'fa-bar-chart';
-        $PageID = 'AIA';
+        $PageID = 'Audience, Issues, and Approach (AIA)';
     break;
         
-    case 'flowchart.php':
+    case 'https://docs.google.com/document/d/14yVcPlMCxrHXT6ThDPTCoEO_RHxRRIT4CBuTxD4qG10/edit?usp=sharing':
         $title = "Blake Agrade's IT162 Flowchart Page";
         $logo = 'fa-sort-amount-asc';
         $PageID = 'Flowchart';
@@ -67,7 +67,7 @@ switch(THIS_PAGE){
 $nav1['index.php'] = "Welcome";
 $nav1['big/index.php'] = "Big";
 $nav1['aia.php'] = "AIA";
-$nav1['flowchart.php'] = "Flowchart";
+$nav1['https://docs.google.com/document/d/14yVcPlMCxrHXT6ThDPTCoEO_RHxRRIT4CBuTxD4qG10/edit?usp=sharing'] = "Flowchart";
 $nav1['fp/index.php'] = "Final Project";
 $nav1['contactme.php'] = "Contact Blake";
 
