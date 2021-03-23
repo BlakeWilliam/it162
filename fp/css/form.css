@@ -1,0 +1,102 @@
+    /* start reCAPTCHA styles */
+
+    form {
+        padding-bottom: 25px;
+       }
+
+       form>div, div.g-recaptcha {
+           display: block;
+           margin: auto;
+           text-align: center;
+           padding-top: 10px;
+           }
+       
+       .g-recaptcha div {
+           margin-left: auto; 
+           margin-right: auto;
+       }
+       
+       .contact_form {
+           width: 70%;
+           float: left;
+       
+       }
+       aside {
+           float: right;
+           margin-left: 10px;
+           width: 22%;
+       }
+           /* writes to small text above reCAPTCHA upon failure */
+       
+       .dateFeedback{
+           font-style:italic;
+           font-size:100%;
+           font-weight:bold;
+           color:#f00;
+       }
+       
+       
+       input:optional, textarea:optional, input:required, select {
+            background-color:#f1f1f1;
+            border:3px solid #FFA01F;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px #888888;
+            width: 75%;
+       }
+       
+       input[type="submit"], input[type="button"] {
+           background-color: #fff;
+           border: solid 3px #FFA01F;
+           border-radius: 10px;
+           box-shadow: 4px 4px 4px #888888;
+           padding: 0.3em 0.5em;
+           width: 250px;
+       }
+       
+       fieldset {
+           border: 3px solid #565656;
+           border-radius: 10px;
+           width: 100%;
+       }
+       
+       legend {
+           margin-left: 0.5em;
+           padding: 0.2em 0.5em;
+           border-left: 1px solid #565656;
+           border-right: 1px solid #565656;
+       }
+   
+       @media only screen and (max-width: 975px) {
+           .contact_form, aside {
+               float: none;
+               margin-left: auto;
+               margin-right: auto;
+               width: 80%;
+           }
+       }
+       
+       @media only screen and (max-width: 600px) {
+           .contact_form, aside {
+               width: 100%;
+           }
+       }
+           /* end reCAPTCHA styles */
+   
+   /* PLACEHOLDER STYLING */
+   ::-webkit-input-placeholder {
+     font-family: "montserrat", sans-serif; 
+       font-size:12px;
+   }
+   ::-moz-placeholder { 
+       font-family: "montserrat", sans-serif; 
+       font-size:12px;
+   }
+   :-ms-input-placeholder { 
+     font-family: "montserrat", sans-serif; 
+       font-size:12px;
+   }
+   :-o-placeholder { 
+     font-family: "montserrat", sans-serif; 
+       font-size:12px;
+   }
+       
